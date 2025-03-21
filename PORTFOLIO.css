@@ -463,7 +463,7 @@ hr{
     }   
 }
 .python{
-    width: 50%;
+    width: 40%;
     animation: python 3s;
     animation-iteration-count: infinite;
 }
