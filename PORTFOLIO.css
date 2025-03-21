@@ -433,7 +433,7 @@ hr{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 75%;
     }   
 }
 .java{
@@ -460,6 +460,19 @@ hr{
     }
     100%{
         width: 50%;
+    }   
+}
+.python{
+    width: 50%;
+    animation: python 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
     }   
 }
 
