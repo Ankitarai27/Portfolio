@@ -21,7 +21,8 @@
 
 </head>
 
-<body>
+<body class="dark-mode"> <!-- or "light-mode" -->
+
     <header>
         <nav class="nav">
             <div class="navbar1">Ankita's Portfolio</div>
@@ -32,10 +33,12 @@
                     <li><a href="#PX">Projects</a></li>
                     <li><a href="#eXP">Experiences</a> </li>
                     <li><a href="#con">Contact Me</a></li>
+                     <button onclick="toggleMode()" class="btn">Toggle Theme</button>
                 </ul>
             </div>
         </nav>
     </header>
+    
     <main>
         <section class="home" id="hm">
             <div class="part">
@@ -45,14 +48,12 @@
                     <span id="element"></span>
                     <div class="BTN">
                         <div class="button_">
-                            <a href="./Ankita_resume.pdf" download="Ankita_resume.pdf">
+                             <a href="./Ankita_resume.pdf" download="Ankita_resume.pdf">
                                 <button id="downloadbutton" class="btn">Download CV</button>
                             </a>
                             <a href="https://github.com/Ankitarai27">
                                 <button class="btn">Visit Github</button>
                             </a>
-<!--                             <button id="downloadbutton" class="btn"  onclick="window.location.href = './Ankita_resume.pdf';">Download CV
-                            <button class="btn" onclick="window.location.href = 'https://github.com/Ankitarai27';">Visit Github -->
                         </div>
                     </div>
                 </div>
@@ -96,7 +97,7 @@
                     <h2>National Institute Of Technology Patna</h2>
                     <p>B.Tech. in Electronics and Communication Engineering</p>
                     <p class="year">Year: 2022-2026</p>
-                    <p class="cg">CGPA: 8.65</p>
+                    <p class="cg">CGPA: 8.78</p>
                 </div>
                 <hr>
                 <div class="edu-box">
@@ -173,7 +174,7 @@
                 <li>
                     <h3>C++</h3>
                     <span class="bar">
-                        <span class="cpp" per="75%"></span>
+                        <span class="cpp" per="70%"></span>
                     </span>
                 </li>
                 <li>
@@ -186,12 +187,6 @@
                     <h3>C</h3>
                     <span class="bar">
                         <span class="C" per="50%"></span>
-                    </span>
-                </li>
-                <li>
-                    <h3>Python</h3>
-                    <span class="bar">
-                        <span class="python" per="40%"></span>
                     </span>
                 </li>
             </div>
@@ -209,8 +204,8 @@
                     </div>
 
                     <div class="form-group">
-                        <textarea cols="" rows="15" placeholder="Enter message" required="">
-                            </textarea>
+                        <textarea required placeholder="Enter message"></textarea>
+
                     </div>
                     <button class="form-btn" type="submit">Submit</button>
                 </form>
@@ -228,4 +223,9 @@
             typeSpeed: 50,
         });
     </script>
+    <script>
+    function toggleMode() {
+        document.body.classList.toggle('light-mode');
+    }
+</script>
 </body>
