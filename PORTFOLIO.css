@@ -76,16 +76,25 @@ main section{
 .colour{
     animation: animateBg 5s linear infinite; 
 }
-.btn{
-    background-color: rgba(30, 84, 117, 0.728);
-    border: none;
-    font-size:medium;
-    width: 120px;
-    height: 45px;
-    border-radius: 14px;
-    color:white;
-    transition: 0.25s;
-    background: linear-gradient(135deg , rgb(75, 236, 0)0%,rgba(138, 252, 103, 0.1)100%);
+.btn {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:visited {
+  color: white;
 }
 .btn:hover{
     transform: scale(1.15);
