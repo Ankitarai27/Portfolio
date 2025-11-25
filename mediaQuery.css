@@ -4,7 +4,6 @@ a {
   outline: none;
 }
 
-
 a:focus {
   outline: none;
 }
@@ -208,5 +207,6 @@ body.light-mode .homeimg a {
         font-size: 3rem;
     }
 }
+
 
 
