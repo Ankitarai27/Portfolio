@@ -28,6 +28,7 @@ Welcome to my personal portfolio website! This website is a representation of my
 
 - **HTML5**: For the structure of the web pages.
 - **CSS3**: For styling the web pages and creating a responsive design.
+- **Javascript**
 
 ## Usage
 
