@@ -1,54 +1,16 @@
-# Personal Portfolio
+# React + Vite
 
-This is my personal portfolio website, created to showcase my skills, projects, and experience. The website is built using HTML and CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contact](#contact)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Introduction
+## React Compiler
 
-Welcome to my personal portfolio website! This website is a representation of my journey as a web developer, highlighting my projects, skills, and professional background. It's designed to give visitors a clear insight into my capabilities and experience.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Features
+## Expanding the ESLint configuration
 
-- **Responsive Design**: The website is fully responsive and works well on all device sizes.
-- **Project Showcase**: A dedicated section to display my projects with descriptions and links.
-- **About Me**: Information about my background, skills, and interests.
-- **Education**: Information about my education.
-- **Contact Form**: A simple contact form to get in touch with me.
-- **Social Media Links**: Links to my social media profiles for further connection.
-
-## Technologies Used
-
-- **HTML5**: For the structure of the web pages.
-- **CSS3**: For styling the web pages and creating a responsive design.
-- **Javascript**
-
-## Usage
-
-Open the `index.html` file in your web browser to view the website. You can also use a local server to view the site.
-
-## Screenshots
-
-![Home Page](https://github.com/Ankitarai27/Portfolio/assets/129681815/696c1a2f-9e5d-4d6b-97a2-9f43f46df798)
-*Screenshot of the home page.*
-
-![Skills Page](https://github.com/Ankitarai27/Portfolio/assets/129681815/fdbb089c-07b8-43c3-8fcd-80eaab31f2b4)
-*Screenshot of the skill page.*
-
-![Conatct Page](https://github.com/Ankitarai27/Portfolio/assets/129681815/ef8b6155-2379-4da5-ad1c-c203076fb263)
-*Screenshot of contact page.*
-
-## Contact
-
-Feel free to get in touch with me through the following channels:
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/ankitarai27/)
-
-Thank you for visiting my portfolio!
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
