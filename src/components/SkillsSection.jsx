@@ -57,12 +57,19 @@ export const SkillsSection = () => {
           {filteredSkills.map((skill) => (
             <div
               key={skill.name}
-             className="group relative bg-card/30 backdrop-blur-md rounded-2xl p-6 text-center
-                border border-border/50
-                transition-all duration-500
-                hover:-translate-y-3
-                hover:bg-card/80
-                hover:shadow-[0_0_40px_rgba(99,102,241,0.6)]"
+             className="group relative
+              bg-primary/5 dark:bg-card/20
+              backdrop-blur-md
+              rounded-2xl p-6 text-center
+
+              border border-primary/30 dark:border-primary/20
+
+              transition-all duration-500
+              hover:-translate-y-3
+              hover:bg-primary/10 dark:hover:bg-card/40
+              hover:border-primary/60
+              hover:shadow-[0_0_40px_rgba(99,102,241,0.6)]"
+
 
             >
               {/* Glow Border */}
@@ -70,9 +77,10 @@ export const SkillsSection = () => {
                               transition duration-500
                               bg-gradient-to-br from-primary/40 via-transparent to-pink-500/40 blur-xl" />
 
-              <h3 className="relative z-10 text-lg md:text-xl font-semibold tracking-wide text-foreground">
+              <h3 className="relative z-10 text-lg md:text-xl font-semibold tracking-wide text-primary">
                 {skill.name}
               </h3>
+
             </div>
           ))}
         </div>
