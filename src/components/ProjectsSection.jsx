@@ -46,7 +46,7 @@ const projects = [
     title: "Tic-Tac-Toe Game",
     description:
       "Classic two-player tic-tac-toe game built using HTML, CSS, and JavaScript.",
-    image: "/projects/ss6.png",
+    image: "/projects/ss5.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "#",
     githubUrl: "https://github.com/Ankitarai27/Tic-Tac-Toe",
