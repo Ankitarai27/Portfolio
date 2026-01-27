@@ -1,16 +1,77 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite, featuring a dynamic dark/light theme toggle and smooth animations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ **Fast & Modern**: Built with React and Vite for optimal performance
+- 🌙 **Dark/Light Theme**: Toggle between dark and light modes
+- 🎨 **Beautiful UI**: Responsive design with Shadcn components
+- ✨ **Smooth Animations**: Engaging star background and transitions
+- 📱 **Mobile Friendly**: Fully responsive across all devices
+- 🔔 **Toast Notifications**: User feedback system
 
-## React Compiler
+## Sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero Section**: Eye-catching introduction with animated background
+- **About**: Personal biography and background
+- **Skills**: Display of technical skills and expertise
+- **Projects**: Showcase of portfolio projects
+- **Contact**: Contact information and messaging
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Vite
+- **Styling**: CSS, Shadcn UI components
+- **Build Tool**: Vite with HMR support
+- **Linting**: ESLint
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+```
+src/
+├── components/      # React components
+│   ├── AboutSection.jsx
+│   ├── ContactSection.jsx
+│   ├── Footer.jsx
+│   ├── HeroSection.jsx
+│   ├── Navbar.jsx
+│   ├── ProjectsSection.jsx
+│   ├── SkillsSection.jsx
+│   ├── StarBackground.jsx
+│   ├── ThemeToggle.jsx
+│   └── ui/          # UI components
+├── pages/           # Page components
+├── hooks/           # Custom React hooks
+├── lib/             # Utility functions
+└── assets/          # Static assets
+```
+
+## License
+
+This project is open source and available under the MIT License.
