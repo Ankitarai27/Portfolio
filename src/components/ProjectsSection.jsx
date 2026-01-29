@@ -55,7 +55,7 @@ const projects = [
     id: 6,
     title: "Calculator",
     description: "A simple calculator to perform basic arithmetic operations.",
-    image: "/projects/ss1.png",
+    image: "/projects/ss6.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "#",
     githubUrl: "https://github.com/Ankitarai27/Calculator.",
