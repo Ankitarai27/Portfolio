@@ -70,14 +70,14 @@ export const ContactSection = () => {
                     exciting projects. Feel free to reach out — I’d love to connect!
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-                    <div className="space-y-8">
-                        <h3 className="text-2xl font-semibold mb-6">
-                            {" "}
-                            Contact Information
-                        </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+                    <div className="space-y-12">
+                        <div>
+                            <h3 className="text-3xl font-semibold mb-12 text-primary">
+                                Contact Information
+                            </h3>
 
-                        <div className="space-y-6 text-left">
+                            <div className="space-y-8 text-left">
                             <div className="flex items-start space-x-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Mail className="h-6 w-6 text-primary" />{" "}
@@ -117,12 +117,13 @@ export const ContactSection = () => {
                                     </a>
                                 </div>
                             </div>
+                            </div>
                         </div>
 
                         <div className="pt-8">
-                            <h4 className="font-medium mb-4"> Connect With Me</h4>
+                            <h4 className="text-lg font-semibold mb-6 text-primary"> Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="https://www.linkedin.com/in/ankitarai27/" target="_blank">
+                                <a href="https://www.linkedin.com/in/ankitarai27/" target="_blank" className="hover:text-primary transition-colors">
                                     <Linkedin />
                                 </a>
                                 {/* <a href="https://x.com/" target="_blank">
@@ -137,10 +138,10 @@ export const ContactSection = () => {
                     </div>
 
                     <div
-                        className="p-8 rounded-xl shadow-lg border-2 border-primary max-w-md mx-auto w-full"
+                        className="p-10 rounded-2xl shadow-2xl border-2 border-primary w-full"
                         onSubmit={handleSubmit}
                     >
-                        <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+                        <h3 className="text-2xl font-semibold mb-8 text-primary">Send a Message</h3>
 
                         <form ref={form} onSubmit={handleSubmit} className="space-y-6">
                             <div>
@@ -234,3 +235,52 @@ export const ContactSection = () => {
         </section>
     );
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+           
+                          
+      
+
+                       
+                               
