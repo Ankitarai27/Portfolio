@@ -4,21 +4,22 @@ import { useState } from "react";
 export const ThemeToggle = () => {
     const [isdarkmode, setisdarkmode] = useState(() => {
         const storedTheme = localStorage.getItem("theme");
-        if (storedTheme === "dark") {
-            document.documentElement.classList.add("dark");
-            return true;
-        } else {
-            localStorage.setItem("theme", "light");
+        if (storedTheme === "light") {
+            document.documentElement.classList.add("light");
             return false;
+        } else {
+            localStorage.setItem("theme", "dark");
+            document.documentElement.classList.remove("light");
+            return true;
         }
     });
     const toggleTheme = () => {
         if (isdarkmode) {
-            document.documentElement.classList.remove("dark");
+            document.documentElement.classList.add("light");
             localStorage.setItem("theme", "light");
             setisdarkmode(false);
         } else {
-            document.documentElement.classList.add("dark");
+            document.documentElement.classList.remove("light");
             localStorage.setItem("theme", "dark");
             setisdarkmode(true);
         }
