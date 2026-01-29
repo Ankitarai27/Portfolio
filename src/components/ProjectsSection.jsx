@@ -6,7 +6,7 @@ const projects = [
     title: "Shorty — URL Shortener",
     description:
       "A modern full-stack URL shortening service built with React, Node.js, and MongoDB. Features secure authentication, protected routes, and responsive UI.",
-    image: "/projects/ss4.png",
+    image: "/projects/ss1.png",
     tags: ["React", "Node.js", "MongoDB", "Express.js", "CSS", "JavaScript"],
     demoUrl: "#",
     githubUrl: "https://github.com/Ankitarai27/Shorty_url",
