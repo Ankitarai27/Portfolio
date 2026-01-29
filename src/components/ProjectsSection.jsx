@@ -18,7 +18,7 @@ const projects = [
       "This portfolio showcases my skills and projects as a fresher web developer using React and TailwindCSS.",
     image: "/projects/ss2.png",
     tags: ["React", "TailwindCSS", "CSS", "JavaScript"],
-    demoUrl: "#",
+    demoUrl: "https://ankita-portfolio-nitp.vercel.app/",
     githubUrl: "https://github.com/Ankitarai27/Portfolio",
   },
   {
@@ -49,7 +49,7 @@ const projects = [
     image: "/projects/ss5.png",
     tags: ["HTML", "CSS", "JavaScript", "React.js"],
     demoUrl: "https://tic-tac-toe-lake-six.vercel.app/",
-    githubUrl: "https://github.com/Ankitarai27/Tic-Tac-Toe",
+    githubUrl: "https://github.com/Ankitarai27/Tic_Tac_Toe",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projects = [
     description: "A simple calculator to perform basic arithmetic operations.",
     image: "/projects/ss6.png",
     tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "#",
+    demoUrl: "https://ankitarai27.github.io/Calculator/",
     githubUrl: "https://github.com/Ankitarai27/Calculator.",
   },
   {
