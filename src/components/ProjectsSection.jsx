@@ -47,8 +47,8 @@ const projects = [
     description:
       "Classic two-player tic-tac-toe game built using HTML, CSS, and JavaScript.",
     image: "/projects/ss5.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "#",
+    tags: ["HTML", "CSS", "JavaScript", "React.js"],
+    demoUrl: "https://tic-tac-toe-lake-six.vercel.app/",
     githubUrl: "https://github.com/Ankitarai27/Tic-Tac-Toe",
   },
   {
@@ -78,16 +78,16 @@ const projects = [
     demoUrl: "#",
     githubUrl: "https://github.com/Ankitarai27/GuessTheNumber",
   },
-  {
-    id: 9,
-    title: "Sparathon Hackathon – ML Backend",
-    description:
-      "A backend built with FastAPI serving ML models (XGBoost, Prophet) for various predictive tasks.",
-    image: "/projects/ss6.png",
-    tags: ["Python", "FastAPI", "ML", "XGBoost", "Prophet"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/CodebugClasher/WarehouseIQ",
-  },
+  // {
+  //   id: 9,
+  //   title: "Sparathon Hackathon – ML Backend",
+  //   description:
+  //     "A backend built with FastAPI serving ML models (XGBoost, Prophet) for various predictive tasks.",
+  //   image: "/projects/ss6.png",
+  //   tags: ["Python", "FastAPI", "ML", "XGBoost", "Prophet"],
+  //   demoUrl: "#",
+  //   githubUrl: "https://github.com/CodebugClasher/WarehouseIQ",
+  // },
   {
     id: 10,
     title: "Snake Water Gun",
