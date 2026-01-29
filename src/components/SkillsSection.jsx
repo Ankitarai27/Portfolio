@@ -68,7 +68,7 @@ export const SkillsSection = () => {
               hover:-translate-y-3
               hover:bg-primary/10 dark:hover:bg-card/40
               hover:border-primary/60
-              hover:shadow-[0_0_40px_rgba(99,102,241,0.6)]"
+              hover:shadow-[0_0_40px_rgba(17,148,118,0.6)]"
 
 
             >
