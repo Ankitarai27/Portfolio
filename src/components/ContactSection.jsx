@@ -70,7 +70,7 @@ export const ContactSection = () => {
                     exciting projects. Feel free to reach out — I’d love to connect!
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                     <div className="space-y-8">
                         <h3 className="text-2xl font-semibold mb-6">
                             {" "}
@@ -137,7 +137,7 @@ export const ContactSection = () => {
                     </div>
 
                     <div
-                        className="bg-card p-8 rounded-lg shadow-xs"
+                        className="p-8 rounded-xl shadow-lg border-2 border-primary max-w-md mx-auto w-full"
                         onSubmit={handleSubmit}
                     >
                         <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
@@ -156,7 +156,7 @@ export const ContactSection = () => {
                                     id="name"
                                     name="name"
                                     required
-                                    className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
+                                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                                     placeholder="Name"
                                 />
                             </div>
@@ -174,7 +174,7 @@ export const ContactSection = () => {
                                     id="email"
                                     name="email"
                                     required
-                                    className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
+                                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                                     placeholder="Email"
                                 />
                             </div>
@@ -191,7 +191,7 @@ export const ContactSection = () => {
                                     id="message"
                                     name="message"
                                     required
-                                    className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
+                                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
                                     placeholder="Hello, I'd like to talk about..."
                                 />
                             </div>
