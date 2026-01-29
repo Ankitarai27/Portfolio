@@ -73,7 +73,7 @@ const projects = [
     id: 8,
     title: "Guess The Number",
     description: "A number guessing game implemented with HTML, CSS, and JavaScript.",
-    image: "/projects/ss3.png",
+    image: "/projects/ss8.png",
     tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "#",
     githubUrl: "https://github.com/Ankitarai27/GuessTheNumber",
