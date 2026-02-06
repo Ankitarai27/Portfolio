@@ -1,12 +1,11 @@
+# Portfolio
+
 [![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Build-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Shadcn UI](https://img.shields.io/badge/UI-Shadcn_UI-000000?logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
 [![Responsive](https://img.shields.io/badge/Design-Responsive-success)](#)
 [![Theme](https://img.shields.io/badge/Theme-Dark%20%7C%20Light-purple)](#)
-
-
-# Portfolio
 
 A modern, responsive portfolio website built with React and Vite, featuring a dynamic dark/light theme toggle and smooth animations.
 
