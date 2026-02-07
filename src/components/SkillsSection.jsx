@@ -68,7 +68,7 @@ export const SkillsSection = () => {
           {filteredSkills.map((skill, index) => (
             <div
               key={`${skill.name}-${index}`}
-              className="group relative bg-card/20 backdrop-blur-md rounded-2xl p-8 text-center border border-primary/10 transition-all duration-500 hover:-translate-y-3 hover:border-primary/40 hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.2)]"
+              className="group relative  backdrop-blur-md rounded-2xl p-8 text-center border border-primary/10 transition-all duration-500 hover:-translate-y-3 hover:border-primary/40 hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.2)]"
             >
               {/* Background Glow Effect */}
               <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-500 bg-gradient-to-br from-primary/10 via-transparent to-primary/5 blur-xl" />

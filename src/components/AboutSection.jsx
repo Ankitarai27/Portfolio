@@ -3,9 +3,9 @@ import { cn } from "@/lib/utils";
 
 export const AboutSection = () => {
     return (
-        <section id="about" className="py-28 px-4 relative overflow-hidden bg-[#050505]">
+        <section id="about" className="py-28 px-4 relative overflow-hidden ">
             {/* Ambient Background Glows */}
-            <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 blur-[120px] rounded-full pointer-events-none" />
+            <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px]  blur-[120px] rounded-full pointer-events-none" />
             
             <div className="container mx-auto max-w-6xl relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
